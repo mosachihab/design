@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+html {box-sizing: border-box;} 
+ 
+*, *:before, *:after {box-sizing: inherit;} 
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;   
+    position: sticky;
+    top: 0; 
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    padding: 15px;
+
+
+}
+
+a:hover {
+    background-color: rgb(156, 153, 153);
+}
+
+.logo {
+    background-color: rgb(50, 166, 166);
+    text-align: center;
+    
+}
+
+.search {
+padding: 15px;
+color: aliceblue;
+}
+
+.search:hover {
+    background-color: rgb(50, 166, 166);
+}
+
+.fa-house-chimney {
+    padding-right: 10px;
+
+}
+
+.parent-link {
+    background-color:rgb(82, 79, 79) ;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 386px;
+    visibility: hidden;
+}
+
+.drop:hover   + .parent-link {
+   visibility: visible;
+}
+
+/* HEADER */
+
+/* img */
+
+.main-img {
+display: block;
+width: 100%;
+height: 350px;
+
+}
+.learn {
+    color: white;
+    position: relative;
+    bottom: 90px;
+    left: 20px;
+    background-color: black;
+}
+
+.learn:hover {
+    background-color: rgb(50, 166, 166);
+}
+/* img */
+
+/* section1 */
+
+.our-team {
+    text-align: center;
+}
+
+.our {
+    margin-bottom: 10px;
+}
+
+/* section1 */
+
+/* our team */
+
+.container-team {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.division {  
+    text-align: center;
+}
+
+.avatar {
+    border-radius: 2000px;
+    width: 250px;
+    height: 250px;
+}
+
+h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* our team */
+
+/* our work */
+
+.our-work {
+    background-color: rgb(98, 93, 93);
+    padding-top: 60px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    gap: 20px;
+    height: 650px;
+    
+}
+
+.paragraph {
+    padding-top: 120px;
+    padding-left: 20px; 
+    width: 30%; 
+    line-height: 25px;   
+}
+
+.white {
+    text-align: start;
+    background-color: aliceblue;
+    color: black;
+    height: 550px;
+    line-height: 30px;
+    
+}
+
+.snow {
+    width: 100%;
+}
+
+.customer {
+    padding-left: 15px;
+}
+
+.h3-work{
+    margin-bottom: 10px;
+}
+
+/* our work */
+
+/* price section */
+
+.price {
+    text-align: center;
+    margin-top: 100px;
+    padding: 30px 0px;
+}
+
+.basic{
+    width: 30%;
+    margin-top: 60px;
+
+}
+
+.basic:hover {
+    box-shadow: 5px 5px 25px grey;
+}
+
+.basic h4 {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 50px 0;
+    font-size: 20px;
+    
+}
+
+.basic p {
+    border:1px solid rgb(182, 177, 177);
+    text-align: center;
+    padding: 30px;
+}
+
+.sign-up {
+    text-align: center;
+    padding: 20px 0px;
+    border: 1px solid rgb(182, 177, 177);   
+}
+
+.sign{
+    background-color: rgb(50, 166, 166);
+    padding: 20px 40px;
+    border-radius: 3px ;
+}
+
+.container-basic {
+    display: flex;
+   justify-content: space-around;
+}
+
+.fa-solid{
+    padding-right: 5px;
+}
+
+/* price section */
+
+.form {
+    background-color: rgb(241, 233, 233);
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding: 90px 3px; 
+}
+
+.contact-us {
+  width: 40%;
+  line-height: 40px;
+  padding: 25px ;  
+}
+
+.contact-us h1 {
+    border-bottom: 5px solid rgb(93, 206, 181);
+    display: inline-block;
+}
+
+.real-form{  
+  width: 55%;
+  padding: 30px;
+  box-shadow: 5px 5px 25px rgb(79, 77, 77);
+  background-color: white;
+}
+
+input {
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(172, 169, 169);
+}
+
+.check {
+    width: 30px;
+}
+
+.check-label {
+    position: relative;
+    bottom: 19px;
+    left:10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    position: relative;
+    left: 800px;
+    bottom: 19px;
+    padding: 15px 30px;
+}
+button:hover {
+    background-color: rgb(50, 166, 166);
+    border: none;
+}
+
+.map {
+    width: 100%;
+}
+
+.footer {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    padding: 30px 0px;
+}
+
+.footer a {
+    background-color: rgba(11, 248, 248, 0.582);
+    padding: 8px 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
